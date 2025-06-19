@@ -11,39 +11,41 @@
     <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
 </head>
 <body>
-    <!-- Hero Image Section -->
-    <div class="hero-image">
-        <div class="container text-center">
-            <h1>Wildfire Information Portal</h1>
-            <p>Search for wildfire management information</p>
+    <div class="wrapper">
+        <!-- Hero Image Section -->
+        <div class="hero-image">
+            <div class="container text-center">
+                <h1>Wildfire Information Portal</h1>
+                <p>Search for wildfire management information</p>
+            </div>
         </div>
-    </div>
 
-    <!-- Search Section -->
-    <div class="container my-4">
-        <form method="POST" action="/">
-            <div class="input-group mb-3">
-                <input type="text" class="form-control" name="search" placeholder="Enter exact question (e.g., What is prescribed burning?)" value="{{ search_query }}">
-                <button class="btn btn-primary" type="submit">Search</button>
-            </div>
-        </form>
-    </div>
-
-    <!-- Results Section -->
-    <div class="container">
-        <h2>Wildfire Q&A</h2>
-        {% if search_query and results %}
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">{{ results[0].question }}</h5>
-                    <p class="card-text">{{ results[0].answer | safe }}</p>
+        <!-- Search Section -->
+        <div class="container my-4">
+            <form method="POST" action="/">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" name="search" placeholder="Enter exact question (e.g., What is prescribed burning?)" value="{{ search_query }}">
+                    <button class="btn btn-primary" type="submit">Search</button>
                 </div>
-            </div>
-        {% elif search_query %}
-            <p>No matching question found. Please enter the exact question (e.g., "What is prescribed burning?").</p>
-        {% else %}
-            <p>Please enter a question to view the answer.</p>
-        {% endif %}
+            </form>
+        </div>
+
+        <!-- Results Section -->
+        <div class="container">
+            <h2>Wildfire Q&A</h2>
+            {% if search_query and results %}
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ results[0].question }}</h5>
+                        <p class="card-text">{{ results[0].answer | safe }}</p>
+                    </div>
+                </div>
+            {% elif search_query %}
+                <p>No matching question found. Please enter the exact question (e.g., "What is prescribed burning?").</p>
+            {% else %}
+                <p>Please enter a question to view the answer.</p>
+            {% endif %}
+        </div>
     </div>
 
     <!-- Bootstrap JS and dependencies -->

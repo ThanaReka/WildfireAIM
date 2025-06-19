@@ -1,5 +1,6 @@
+/* Step 6: Custom CSS for hero image */
 .hero-image {
-    background-image: url('https://images.unsplash.com/photo-1628532893377-2dc1b98895eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+    background-image: url('../images/hero-image.png');
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -8,4 +9,33 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+/* Updated: Background image for the page wrapper */
+.wrapper {
+    background-image: url('../images/misty-forest-strip.png');
+    background-size: 100% auto; /* Stretch to full width, maintain aspect ratio */
+    background-position: bottom; /* Keep at the bottom */
+    background-repeat: no-repeat; /* Prevent tiling */
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+/* Ensure content readability over background */
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 2;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
