@@ -4,8 +4,24 @@
 * Wildire mitigation and prevention system, powered by Microsoft Azure AI Technologies
 * Developed for the AI Innovation Challenge in June 2025
 
-WildfireAIM
-WildfireAIM is a one-page web application built with Flask and Bootstrap to provide information on wildfire management, specifically focusing on prescribed burning. Users can search through a Q&A database to learn about wildfire management techniques.
+### About
+* Wildfire AIM was built as a RAG (Retrieval Augmented Generation) Search Chat Application.
+* Its focus is on promoting prescribed burning as a wildfire prevention and mitigation method, as practiced by the Karuk Tribe of Northern California.
+* Our system provides culturally sensitive guidelines for US government agencies to expand the use of prescribed burning in cooperation with native tribes.
+
+### Tech Stack
+* Frontend: Python, Bootstrap
+* Backend: Python, Flask
+* Azure AI Backend: Configured through Azure Portal
+
+### Project Presentation
+* https://speakerdeck.com/vuinguyen/wildfire-aim-ai-mitigation
+
+### Demo Video
+* https://bit.ly/WildfireAIM-Demo
+
+### Running our project
+Wildfire AIM is a one-page web application built with Flask and Bootstrap to provide information on wildfire management, specifically focusing on prescribed burning. Users can search through a Q&A database to learn about wildfire management techniques.
 Project Structure
 WildfireAIM/
 ├── backend/
@@ -24,7 +40,7 @@ WildfireAIM/
 Setup Instructions
 
 Clone the Repository:
-git clone https://github.com/vuinguyen/WildfireAIM.git
+git clone https://github.com/ThanaRekan/WildfireAIM.git
 cd WildfireAIM
 
 
@@ -74,3 +90,7 @@ Create a pull request on GitHub.
 
 License
 MIT License
+
+### For questions, contact our team:
+- [Vui Nguyen](https://github.com/vuinguyen)
+- [Reka Thanabalan](https://github.com/ThanaReka)
