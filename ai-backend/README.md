@@ -12,7 +12,7 @@ We used the Microsoft Learn Tutorial: [Implement Retrieval Augmented Generation 
 ### Grounding Data Sources
 Grab the PDF files from the `grounding-data/prescribed-burning` folder and upload them to the Azure portal per the tutorial instructions.
 
-### Overview of set up instructions from the Tutorial:
+### Overview of Set Up Instructions From The Tutorial:
 
 Step 1: Provision Resources
 - Provision an Azure OpenAI resource

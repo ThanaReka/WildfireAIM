@@ -12,7 +12,7 @@
 ### Tech Stack
 * Frontend: Python, Bootstrap
 * Backend: Python, Flask
-* Azure AI Backend: Configured through Azure Portal
+* Azure AI Backend: Configured through Azure Portal (see `ai-backend` for details)
 
 ### Project Presentation
 * https://speakerdeck.com/vuinguyen/wildfire-aim-ai-mitigation
