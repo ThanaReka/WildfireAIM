@@ -1,10 +1,11 @@
 # Wildire AIM
 
-![Alt text for image](https://github.com/ThanaReka/WildfireAIM/blob/main/assets/screenshot1.png)
-
 ## Wildfire AIM (AI Mitigation)
 * Wildire mitigation and prevention system, powered by Microsoft Azure AI Technologies
 * Developed for the AI Innovation Challenge in June 2025
+
+  
+![Alt text for image](https://github.com/ThanaReka/WildfireAIM/blob/main/assets/screenshot1.png)
 
 ### About
 * Wildfire AIM was built as a RAG (Retrieval Augmented Generation) Search Chat Application.
