@@ -1,5 +1,7 @@
 # Wildire AIM
 
+![Alt text for image](https://github.com/ThanaReka/WildfireAIM/blob/main/assets/screenshot1.png)
+
 ## Wildfire AIM (AI Mitigation)
 * Wildire mitigation and prevention system, powered by Microsoft Azure AI Technologies
 * Developed for the AI Innovation Challenge in June 2025
@@ -64,7 +66,7 @@ The homepage features a hero image and a search bar.
 Enter terms like "prescribed burning" or "regulatory" to filter Q&A content.
 Results are displayed in an accordion format, with questions as headers and answers expandable.
 
-
+![Alt text for image](https://github.com/ThanaReka/WildfireAIM/blob/main/assets/screenshot2.png)
 
 Data Customization
 
