@@ -25,7 +25,7 @@
 
 ### Project Architecture
 
-![Alt text for image](https://github.com/ThanaReka/WildfireAIM/blob/main/assets/architecture.png)
+![Alt text for image](https://github.com/ThanaReka/WildfireAIM/blob/main/assets/architecture2.png)
 
 ### Running our project
 Wildfire AIM is a one-page web application built with Flask and Bootstrap to provide information on wildfire management, specifically focusing on prescribed burning. Users can search through a Q&A database to learn about wildfire management techniques.
