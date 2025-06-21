@@ -44,24 +44,29 @@ WildfireAIM/
 ├── README.md
 └── requirements.txt
 
-Setup Instructions
+Setup Instructions:
 
 Clone the Repository:
-git clone https://github.com/ThanaRekan/WildfireAIM.git
-cd WildfireAIM
+> git clone https://github.com/ThanaRekan/WildfireAIM.git
+
+> cd WildfireAIM
 
 
 Set up a Virtual Environment (optional but recommended):
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+> python -m venv venv
+
+> source venv/bin/activate
+
+On Windows: 
+> venv\Scripts\activate
 
 
 Install Dependencies:
-pip install -r requirements.txt
+> pip install -r requirements.txt
 
 
 Run the Application:
-python backend/wildfire_app.py
+> python backend/wildfire_app.py
 
 Open a browser and navigate to http://127.0.0.1:5000.
 
@@ -75,29 +80,41 @@ Results are displayed in an accordion format, with questions as headers and answ
 
 Data Customization
 
-Edit backend/data/data.json to add more Q&A pairs in the format:{
+Edit backend/data/data.json to add more Q&A pairs in the format:
+
+{
     "question": "Your question here",
-    "answer": "Your answer here with <br> for line breaks"
+    "answer": "Your answer here with <<br>br> for line breaks"
 }
 
 
+Dependencies:
 
-Dependencies
+* Flask: Backend web framework
 
-Flask: Backend web framework
-Bootstrap 5.3.0: Frontend styling (loaded via CDN)
+* Bootstrap 5.3.0: Frontend styling (loaded via CDN)
 
-Contributing
+Contributing:
 
-Fork the repository.
-Create a new branch: git checkout -b feature-branch.
-Make changes and commit: git commit -m "Description of changes".
-Push to the branch: git push origin feature-branch.
-Create a pull request on GitHub.
+* Fork the repository.
+
+* Create a new branch: 
+
+> git checkout -b feature-branch.
+
+* Make changes and commit: 
+
+> git commit -m "Description of changes".
+
+* Push to the branch: 
+
+> git push origin feature-branch.
+
+* Create a pull request on GitHub.
 
 License
 MIT License
 
-### For questions, contact our team:
+### For Questions, Contact Our Team:
 - [Vui Nguyen](https://github.com/vuinguyen)
 - [Reka Thanabalan](https://github.com/ThanaReka)
